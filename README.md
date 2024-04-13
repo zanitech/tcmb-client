@@ -12,7 +12,15 @@ To use it (not ready yet) as a maven dependency, add the following;
 </dependency>
 ```
 ## Example Usage
+To get instant foreign exhange rates;
 ```
 TcmbClient tcmbClient = new TcmbClient();
 ForexRateResponse forexRateResponse = tcmbClient.forex().getRates();
 ```
+
+To get bank list in Turkey;
+```
+TcmbClient tcmbClient = new TcmbClient();
+BankListResponse bankListResponse = tcmbClient.bankBranch().getBankList();
+```
+
