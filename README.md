@@ -1,6 +1,6 @@
 # tcmb-client
 
-Java sdk that connects to central bank (TCMB) and provides TCMB related data. 
+Java SDK that connects to central bank (TCMB) and provides TCMB related data. 
 
 To use it (not ready yet) as a maven dependency, add the following;
 
@@ -12,15 +12,9 @@ To use it (not ready yet) as a maven dependency, add the following;
 </dependency>
 ```
 ## Example Usage
-To get instant foreign exhange rates;
+To get instant foreign exchange rates;
 ```
 TcmbClient tcmbClient = new TcmbClient();
 ForexRateResponse forexRateResponse = tcmbClient.forex().getRates();
-```
-
-To get bank list in Turkey;
-```
-TcmbClient tcmbClient = new TcmbClient();
-BankListResponse bankListResponse = tcmbClient.bankBranch().getBankList();
 ```
 
