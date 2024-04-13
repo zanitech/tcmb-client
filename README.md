@@ -1,4 +1,4 @@
-# tcmb-connect
+# tcmb-client
 Software development kit that connects central bank (TCMB) and provides TCMB related data. 
 
 to use it (not ready yet) as a maven dependency, add the following;
