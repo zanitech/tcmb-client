@@ -15,6 +15,6 @@ To use it (not ready yet) as a maven dependency, add the following;
 To get instant foreign exchange rates;
 ```
 TcmbClient tcmbClient = new TcmbClient();
-ForexRateResponse forexRateResponse = tcmbClient.forex().getRates();
+ForexRateOutput forexRateOutput = tcmbClient.forex().getRates();
 ```
 
