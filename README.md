@@ -19,7 +19,7 @@ ForexRateOutput forexRateOutput = tcmbClient.forex().getRates();
 ```
 
 ## Features to be added
-- Bank and branches look up date
+- Bank and branches look up data
 - Evds client
 
 ## Main contributors
