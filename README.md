@@ -18,3 +18,9 @@ TcmbClient tcmbClient = new TcmbClient();
 ForexRateOutput forexRateOutput = tcmbClient.forex().getRates();
 ```
 
+## Features to be added
+- Bank and branches look up date
+- Evds client
+
+## Main contributors
+- Esat Koç
