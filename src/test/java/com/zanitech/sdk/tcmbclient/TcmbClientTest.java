@@ -1,7 +1,7 @@
 package com.zanitech.sdk.tcmbclient;
 
 import com.zanitech.sdk.tcmbclient.adapter.ExhangeRateFakeAdapter;
-import com.zanitech.sdk.tcmbclient.model.currency.ForexRateOutput;
+import com.zanitech.sdk.tcmbclient.model.forex.ForexRateOutput;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

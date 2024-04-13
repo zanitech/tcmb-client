@@ -1,4 +1,4 @@
-package com.zanitech.sdk.tcmbclient.model.currency;
+package com.zanitech.sdk.tcmbclient.model.forex;
 
 import lombok.Builder;
 import lombok.Data;

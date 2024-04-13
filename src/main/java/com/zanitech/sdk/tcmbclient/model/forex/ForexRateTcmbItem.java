@@ -1,4 +1,4 @@
-package com.zanitech.sdk.tcmbclient.model.currency;
+package com.zanitech.sdk.tcmbclient.model.forex;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import lombok.AllArgsConstructor;
