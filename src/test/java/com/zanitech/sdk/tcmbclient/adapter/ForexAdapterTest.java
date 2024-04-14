@@ -18,7 +18,7 @@ class ForexAdapterTest {
   @Test
   @SneakyThrows
   void getRates_happyPath() {
-    var mockTcmbConnector = new MockTcmbConnector<ForexRateTcmbOutput>();
+    var mockTcmbConnector = new MockTcmbConnector();
     mockTcmbConnector.setReturnObject(ForexRateTcmbOutput.builder()
         .date("08.04.2024")
         .forexRateTcmbItems(List.of(
@@ -40,7 +40,7 @@ class ForexAdapterTest {
 
   @Test
   void getRates_throwsInternalServerError() {
-    var mockTcmbConnector = new MockTcmbConnector<ForexRateTcmbOutput>();
+    var mockTcmbConnector = new MockTcmbConnector();
     mockTcmbConnector.setSuccess(false);
     TcmbClientHttpException tcmbClientHttpException = new TcmbClientHttpException();
     tcmbClientHttpException.setStatusCode(503);

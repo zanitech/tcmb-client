@@ -2,11 +2,11 @@ package com.zanitech.sdk.tcmbclient.net;
 
 import com.zanitech.sdk.tcmbclient.exception.TcmbClientHttpException;
 
-public class MockTcmbConnector<E> implements TcmbConnector{
+public class MockTcmbConnector implements TcmbConnector {
 
   private boolean success;
   private TcmbClientHttpException exception;
-  private E returnObject;
+  private Object returnObject;
 
   public MockTcmbConnector() {
     this.success = true;
@@ -16,12 +16,12 @@ public class MockTcmbConnector<E> implements TcmbConnector{
   @Override
   public <T> T get(String uri, Class<T> clazz) throws TcmbClientHttpException {
     if (success) {
-      return (T) returnObject;
+      return clazz.cast(returnObject);
     }
     throw exception;
   }
 
-  public void setReturnObject(E returnObject) {
+  public void setReturnObject(Object returnObject) {
     this.returnObject = returnObject;
   }
 
@@ -39,9 +39,5 @@ public class MockTcmbConnector<E> implements TcmbConnector{
 
   public void setException(TcmbClientHttpException exception) {
     this.exception = exception;
-  }
-
-  public E getReturnObject() {
-    return returnObject;
   }
 }
