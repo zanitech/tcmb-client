@@ -1,7 +1,4 @@
 
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 |
 Lsrc/main/java/com/zanitech/sdk/tcmbclient/model/forex/ForexRateTcmbItem.java,5/2/526c2946fdb836ce3a9a1f2eb7f6ed9f1fa05370
 t
