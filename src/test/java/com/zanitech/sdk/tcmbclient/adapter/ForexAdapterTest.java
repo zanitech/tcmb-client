@@ -1,5 +1,6 @@
 package com.zanitech.sdk.tcmbclient.adapter;
 
+import com.zanitech.sdk.tcmbclient.ForexAdapter;
 import com.zanitech.sdk.tcmbclient.exception.TcmbClientHttpException;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRateOutput;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRateTcmbItem;
@@ -31,6 +32,7 @@ class ForexAdapterTest {
                 .build()
         ))
         .build());
+
     ForexAdapter forexAdapter = new ForexAdapter(mockTcmbConnector);
     ForexRateOutput output = forexAdapter.getRates();
     Assertions.assertEquals("2024-04-08", output.getDate().toString());

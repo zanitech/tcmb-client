@@ -1,9 +1,9 @@
-package com.zanitech.sdk.tcmbclient.adapter;
+package com.zanitech.sdk.tcmbclient;
 
 import com.zanitech.sdk.tcmbclient.exception.TcmbClientHttpException;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRate;
-import com.zanitech.sdk.tcmbclient.model.forex.ForexRateTcmbOutput;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRateOutput;
+import com.zanitech.sdk.tcmbclient.model.forex.ForexRateTcmbOutput;
 import com.zanitech.sdk.tcmbclient.net.TcmbConnector;
 import com.zanitech.sdk.tcmbclient.net.XmlTcmbConnector;
 import com.zanitech.sdk.tcmbclient.util.DateTimeUtil;
