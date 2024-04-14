@@ -1,11 +1,10 @@
 package com.zanitech.sdk.tcmbclient;
 
 import com.zanitech.sdk.tcmbclient.adapter.ForexAdapter;
-import com.zanitech.sdk.tcmbclient.adapter.impl.ForexAdapterImpl;
 
 public class TcmbClient {
 
-  private ForexAdapter forexAdapter = new ForexAdapterImpl();
+  private final ForexAdapter forexAdapter = new ForexAdapter();
 
   /**
    * Foreign exchange related functionalities
@@ -13,9 +12,5 @@ public class TcmbClient {
    */
   public ForexAdapter forex() {
     return forexAdapter;
-  }
-
-  public void setForexAdapter(ForexAdapter forexAdapter) {
-    this.forexAdapter = forexAdapter;
   }
 }
