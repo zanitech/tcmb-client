@@ -1,4 +1,4 @@
-package com.zanitech.sdk.tcmbclient;
+package com.zanitech.sdk.tcmbclient.adapter;
 
 import com.zanitech.sdk.tcmbclient.exception.TcmbClientHttpException;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRate;
