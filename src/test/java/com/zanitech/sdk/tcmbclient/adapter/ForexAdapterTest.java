@@ -1,6 +1,5 @@
 package com.zanitech.sdk.tcmbclient.adapter;
 
-import com.zanitech.sdk.tcmbclient.ForexAdapter;
 import com.zanitech.sdk.tcmbclient.exception.TcmbClientHttpException;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRateOutput;
 import com.zanitech.sdk.tcmbclient.model.forex.ForexRateTcmbItem;
