@@ -1,5 +1,12 @@
 
-
-Osrc/main/java/com/quithos/tcmbclient/adapter/impl/BankAndBranchAdapterImpl.java,c/e/ceb0df58cb3962371ecb09be671d29f0e1a7322d
-k
-;src/main/java/com/quithos/tcmbclient/net/TcmbConnector.java,e/1/e169711a14c6d19623fb54818dce4b01c1327f89
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+|
+Lsrc/main/java/com/zanitech/sdk/tcmbclient/model/forex/ForexRateTcmbItem.java,5/2/526c2946fdb836ce3a9a1f2eb7f6ed9f1fa05370
+t
+Dsrc/main/java/com/zanitech/sdk/tcmbclient/model/forex/ForexRate.java,a/2/a2822932133ba3f147b021d008d626076ad9c35d
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+|
+Lsrc/main/java/com/zanitech/sdk/tcmbclient/exception/TcmbClientException.java,5/6/56d18df207f7e149726f2e2b86384da4aa5b46ae
